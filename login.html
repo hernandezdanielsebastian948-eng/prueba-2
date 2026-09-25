@@ -43,7 +43,7 @@
             
               <div class="input-field col s6">
                 <label for="contraseña">Ingresa tu contraseña</label>
-                <input type="password" id="contraseña" class="validate" required>
+                <input type="password" id="contraseña" class="validate" pattern="(?=.*\d)(?=.*\.)(?=.*[A-Z]).+" title="La contraseña debe incluir obligatoriamente caracteres como .+-*/# mayusculas y numeros" required >
               </div>
              
               <button class="btn wanes-effect wanes-ligth right" type="submit" name="enviar">ingresar
